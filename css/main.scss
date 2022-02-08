@@ -3,7 +3,7 @@ $colors: (
   primary: #005dff,
   primary-light: lighten(#005dff, 40%),
   primary-dark: darken(#005dff, 40%),
-  accent: #fff6bb,
+  accent: #fff6bb
 );
 $padding: 15px;
 $borders: 15px;
@@ -18,8 +18,7 @@ $desktop:840px;
     }
 }
 
-body,
-html {
+body,html {
   height: 100%;
 }
 body{
@@ -55,7 +54,7 @@ main {
     padding: 20px;
     margin: 1em auto;
     border-radius: $borders;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
     width: 80%;
 
     @include desktop{
@@ -104,7 +103,7 @@ main {
           @include desktop{
                width:30%;
                font-size:4em;
-            line-height:0.9em;
+            line-height:.9em;
         }
      
     }
@@ -125,7 +124,7 @@ main {
       @include desktop{
         display:inline-block;
         padding:$padding $padding*4;
-    }
+      }
 
     }
   }

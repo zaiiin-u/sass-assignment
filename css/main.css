@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,700&display=swap");
-body,
-html {
+body, html {
   height: 100%;
 }
 
@@ -116,7 +115,7 @@ main section#primary h1 {
   main section#primary h1 {
     width: 30%;
     font-size: 4em;
-    line-height: 0.9em;
+    line-height: .9em;
   }
 }
 
